@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- liga al archivo css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- liga principal google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Liga letra titulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos adicionales */
+        /* Añade aquí tus estilos personalizados */
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header id="myHeader" style="background-color: #ADD8E6; padding: 10px;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Aquí va el menú colapsable -->
+            </div>
+            <div class="col text-center">
+                <h1>Ernesto</h1>
+            </div>
+            <div class="col text-right" id="frase-container">
+                <p id="frase"></p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Sección Foto -->
+<section style="background-color: #ADD8E6; padding: 60px 0;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <!-- Aquí va la foto recortada -->
+                <img src="./src/img/perfil.jpg" alt="foto perfil" class="imagen-redonda">
+            </div>
+            <div class="col-md-6">
+                <div class="Portafolio-left text-center text-md-start">
+                    <h1>¡Bienvenido a mi Página!</h1>
+                    <p>Conoce un poco de mi personalidad y mi trabajo</p>
+                    <button type="button" class="btn btn-primary" id="boton-port">
+                        <a href="#secc-portafolio" style="color: white; text-decoration: none;">Mi Portafolio</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Sobre mí -->
+<section style="background-color: #e3f2f7; padding: 50px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Soy Ernesto </h2>
+                <p><strong>!Hola!</strong> Soy un apasionado Desarrollador de Software con enfoque en el desarrollo Web. 
+                    <br>Mi enfoque se centra en oportunidades que me permitan contribuir al diseño y creación de soluciones innovadoras en el ámbito del desarrollo de software. 
+                    <br>Me destaco por mi capacidad para trabajar en equipo, comunicarme de manera efectiva y adaptarme rápidamente a nuevas tecnologías y entornos de desarrollo. 
+                    <br>Estoy disponible para formar parte de un equipo donde pueda no solo aportar mis habilidades técnicas, sino también continuar mi aprendizaje y crecimiento profesional.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h2>Habilidades Técnicas</h2>
+                <ul>
+                    <li>Git</li>
+                    <li>Java</li>
+                    <li>Javascript</li>
+                    <li>MySQL</li>
+                    <li>HTML</li>
+                    <li>Scrum</li>
+                    <li>Oracle DB</li>
+                    <li>Ingles B2</li>
+                  </ul>
+                  <a href="https://drive.google.com/file/d/1Zoj-QYPAWx50W1mvec3mnaNBJW_v6DfN/view?usp=share_link" download="CV-Ernesto.pdf" class="btn btn-primary" target="_blank">Descargar CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Habilidades Blandas-->
+<section style="background-color: #ADD8E6; padding: 50px 0;">
+    <div class="container">
+        <!--Section Heading START-->
+        <div class="heading text-center mb-5">
+            <h2 class="fs-3 kayden-underline-left mb-5 fw-bold text-uppercase d-inline-block">Habilidades Blandas</h2>
+        </div>
+        <!--Section Heading END-->
+        <!--Section Body START-->
+        <div class="section-body">
+            <!--Gradient Grid START-->
+            <div class="kayden-gradient-grid">
+                <!--Gradient Grid ROW START-->
+                <div class="row g-0">
+                    <!--Gradient Grid Item START-->
+                    <div class="col-lg-4 text-center">
+                        <div class="p-5">
+                            <div class="fs-3 mb-3">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h4 class="mb-3">Trabajo en equipo</h4>
+                            <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <!--Gradient Grid Item END-->
+                    <!--Gradient Grid Item START-->
+                    <div class="col-lg-4 text-center">
+                        <div class="p-5">
+                            <div class="fs-3 mb-3">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4 class="mb-3">Comunicación Asertiva</h4>
+                            <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <!--Gradient Grid Item END-->
+                    <!--Gradient Grid Item START-->
+                    <div class="col-lg-4 text-center">
+                        <div class="p-5">
+                            <div class="fs-3 mb-3">
+                                <i class="fas fa-mug-hot"></i>
+                            </div>
+                            <h4 class="mb-3">Adaptabilidad a nuevas plataformas</h4>
+                            <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <!--Gradient Grid Item END-->
+                </div>
+                <!--Gradient Grid ROW END-->
+                <!--Gradient Grid ROW START-->
+                <div class="row g-0">
+                    <!--Gradient Grid Item START-->
+                    <div class="col-lg-4 text-center">
+                        <div class="p-5">
+                            <div class="fs-3 mb-3">
+                                <i class="far fa-clone"></i>
+                            </div>
+                            <h4 class="mb-3">Persistencia</h4>
+                            <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <!--Gradient Grid Item END-->
+                    <!--Gradient Grid Item START-->
+                    <div class="col-lg-4 text-center">
+                        <div class="p-5">
+                            <div class="fs-3 mb-3">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h4 class="mb-3">Visión al futuro</h4>
+                            <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <!--Gradient Grid Item END-->
+                    <!--Gradient Grid Item START-->
+                    <div class="col-lg-4 text-center">
+                        <div class="p-5">
+                            <div class="fs-3 mb-3">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4 class="mb-3">Mentalidad de Crecimiento</h4>
+                            <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <!--Gradient Grid Item END-->
+                </div>
+                <!--Gradient Grid ROW END-->
+            </div>
+            <!--Gradient Grid END-->
+        </div>
+        <!--Section Body END-->
+    </div>
+</section>
+
+<!-- Sección Portafolio -->
+<section id="secc-portafolio" style="background-color: #e3f2f7; padding: 50px 0;">
+    <div class="container">
+        <h2 style="text-align: center;">Mi Portafolio</h2>
+        <hr style="border-color: orange;">
+        <div class="row">
+            <!-- Aquí van las cards de Bootstrap -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./src/img/proyecto1.png" class="card-img-top" alt="img proyecto1">
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto 1</h5>
+                      <p class="card-text">Descripcion breve del proyecto realizado</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./src/img/proyecto2.png" class="card-img-top" alt="img proyecto2">
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto 2</h5>
+                      <p class="card-text">Descripcion breve del proyecto realizado</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./src/img/proyecto3.png" class="card-img-top" alt="img proyecto3">
+                    <div class="card-body">
+                      <h5 class="card-title">Proyecto 3</h5>
+                      <p class="card-text">Descripcion breve del proyecto realizado</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Contacto -->
+<section style="background-color: #ADD8E6; padding: 50px 0;">
+    <div class="container">
+        <h2 style="text-align: center;">Contacto</h2>
+        <hr style="border-color: orange;">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-2">
+                        <!-- Icono pequeño de sobre de email -->
+                        <img src="./src/img/correo-logo.png" alt="correo logo" width="40px" height="40px">
+                    </div>
+                    <div class="col-10">
+                        <!-- Correo -->
+                        <p>ernesto_sv1@outlook.com</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-2">
+                        <!-- Imagen pequeña de ubicación -->
+                        <img src="./src/img/ubicacion-naranja.png" alt="correo logo" width="40px" height="40px">
+
+                    </div>
+                    <div class="col-10">
+                        <!-- Ubicación -->
+                        <p>Ciudad de México, México</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Formulario -->
+                <form>
+                    <div class="form-group">
+                        <label for="nombreCompleto">Nombre Completo</label>
+                        <input type="text" class="form-control" id="nombreCompleto">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" class="form-control" id="asunto">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer style="background-color: #e3f2f7; padding: 20px;">
+    <div class="container text-center">
+        <!-- Iconos con enlaces -->
+        <a href="https://github.com/Ernest0SV" target="_blank"><img src="./src/img/github-logo.png" alt="Github" style="width: 40px; height: 40px;"></a>
+        <a href="https://www.linkedin.com/in/ernesto-sepúlveda-vázquez-390019293/" target="_blank"><img src="./src/img/linkedin-logo.png" alt="LinkedIn" style="width: 40px; height: 40px;"></a>
+        <p>Ernesto &copy; 2024 </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS y otros scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+<script src="./js/main.js" defer></script>
+</body>
+</html>
+
+
+<!-- 
+    color azul original (fuerte)  
+    background-color: #ADD8E6; 
+
+    color azul (claro)
+    background-color: #e3f2f7;
+
+    color naranja
+    #F29500
+
+
+
+
+
+-->

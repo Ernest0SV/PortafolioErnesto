@@ -1,0 +1,46 @@
+.two-column-list ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  
+  .two-column-list li {
+    list-style-type: none;
+  }
+
+  .btn-primary{
+    background-color: #F29500;
+    border: none;
+  }
+  
+
+  .imagen-redonda {
+    width: auto; /* ajusta el ancho según sea necesario */
+    height: 300px; /* ajusta la altura según sea necesario */
+    border-radius: 50%; /* Esto hace que la imagen tenga forma redonda */
+    overflow: hidden; /* Esto asegura que la imagen se ajuste al borde redondeado */
+    margin-top: 20px;
+}
+
+  #myHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el header esté por encima del contenido */
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1{
+    font-family: poppins-regular;
+    font-size: 40px;
+  }
+
+  h2{
+    font-family: poppins-regular;
+    font-size: 30px;
+  }
